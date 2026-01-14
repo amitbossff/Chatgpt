@@ -1,5 +1,6 @@
 import OpenAI from "openai";
-import { getHistory, addMessage, resetHistory } from "../../../../lib/memory";
+import { getHistory, addMessage, resetHistory } from "../../../lib/memory";
+
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
